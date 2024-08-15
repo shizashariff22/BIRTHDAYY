@@ -1,0 +1,100 @@
+body {
+    background-color: #ffebcd;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 3em;
+    color: #ff69b4;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+img {
+        width: 300px;  /* Set the desired width for the cake image */
+        height: auto;  /* Maintain aspect ratio */
+        max-width: 100%; /* Ensure it doesn’t exceed the container’s width */
+        border-radius: 10px; /* Keeps the corners rounded */
+        margin: 10px;  /* Adds space around the image */
+        border: 2px solid #ff69b4; /* Adds a pink border */
+        padding: 10px;  /* Adds padding inside the border */
+        background-color: #fff; /* Adds a white background */
+    }
+    
+
+    .message {
+        width: 80%;
+        max-width: 600px;
+        background-color: #fff;
+        border: 2px solid #ff69b4;
+        border-radius: 10px;
+        padding: 15px;
+        margin: 10px 0;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    
+.messages, .gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#birthday-gif {
+    width: 300px;  /* Set the width of the GIF */
+    height: auto;  /* Maintain aspect ratio */
+    display: block; /* Ensures it's centered if the container has text-align: center */
+    margin: 20px auto; /* Adds some space around the GIF */
+}
+
+.message, .gallery img {
+    margin: 10px;
+    border: 2px solid #ff69b4;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input, textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ff69b4;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff69b4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff1493;
+}
+
+.gallery img {
+    width: 200px;  /* Set a fixed width for each image */
+    height: auto;  /* Maintain aspect ratio by automatically adjusting height */
+    max-width: 100%; /* Ensure it doesn’t exceed the container’s width */
+    border-radius: 10px; /* Already defined, keeps the corners rounded */
+    margin: 10px;  /* Already defined, adds space around each image */
+    border: 2px solid #ff69b4; /* Already defined, adds a pink border */
+    padding: 10px;  /* Already defined, adds padding inside the border */
+    background-color: #fff; /* Already defined, adds a white background */
+}
